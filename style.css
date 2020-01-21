@@ -1,0 +1,43 @@
+header {
+  border-bottom: 5px gray solid;
+  text-align: center;
+  padding-top: 20px;
+}
+h3 {
+  text-align: right;
+  width: 1300px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+}
+nav {
+  border-right: 1px gray solid;
+  width: 135px;
+  height: 500px;
+  text-align: center;
+}
+p {
+  line-height: 200%;
+}
+table {
+  text-align: center;
+  width: 60%;
+  height: 100px;
+  margin: auto;
+  border-collapse: collapse;
+}
+table, th, td {
+  border: 1px solid black;
+}
+.link {
+  text-align: center;
+}
+@media(max-width: 800px) {
+  .grid {
+    display: block;
+  }
+  nav {
+    display: none;
+  }
+}
